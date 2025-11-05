@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1220px" preserveAspectRatio="none" style="width:1237px;height:1220px;background:#FFFFFF;" version="1.1" viewBox="0 0 1237 1220" width="1237px" zoomAndPan="magnify"><defs/><g><!--MD5=[ccbee6847e9381165dc8b6f0cdf4aaff]
+class 고객센터_문의--><g id="elem_고객센터_문의"><rect codeLine="6" fill="#F1F1F1" height="162.0781" id="고객센터_문의" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="122" x="101.5" y="237.5"/><ellipse cx="118.75" cy="253.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M121.7188,259.1406 Q121.1406,259.4375 120.5,259.5781 Q119.8594,259.7344 119.1563,259.7344 Q116.6563,259.7344 115.3281,258.0938 Q114.0156,256.4375 114.0156,253.3125 Q114.0156,250.1875 115.3281,248.5313 Q116.6563,246.875 119.1563,246.875 Q119.8594,246.875 120.5,247.0313 Q121.1563,247.1875 121.7188,247.4844 L121.7188,250.2031 Q121.0938,249.625 120.5,249.3594 Q119.9063,249.0781 119.2813,249.0781 Q117.9375,249.0781 117.25,250.1563 Q116.5625,251.2188 116.5625,253.3125 Q116.5625,255.4063 117.25,256.4844 Q117.9375,257.5469 119.2813,257.5469 Q119.9063,257.5469 120.5,257.2813 Q121.0938,257 121.7188,256.4219 L121.7188,259.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="133.25" y="258.3467">고객센터_문의</text><line style="stroke:#181818;stroke-width:0.5;" x1="102.5" x2="222.5" y1="269.5" y2="269.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="109.5" y="280.1484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="121.5" y="286.4951">문의번호 : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="109.5" y="296.4453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="121.5" y="302.792">회원ID : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="109.5" y="312.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="121.5" y="319.0889">제목 : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="109.5" y="329.0391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="121.5" y="335.3857">내용 : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="109.5" y="345.3359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="121.5" y="351.6826">작성일자 : date</text><line style="stroke:#181818;stroke-width:0.5;" x1="102.5" x2="222.5" y1="358.9844" y2="358.9844"/><ellipse cx="112.5" cy="372.6328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="121.5" y="375.9795">문의등록()</text><ellipse cx="112.5" cy="388.9297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="121.5" y="392.2764">문의조회()</text></g><!--MD5=[d9df4e9266aa4fadb5d91e1a02422ecb]
+class 고객센터_답변처리--><g id="elem_고객센터_답변처리"><rect codeLine="16" fill="#F1F1F1" height="162.0781" id="고객센터_답변처리" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="143" x="7" y="492"/><ellipse cx="22" cy="508" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M24.9688,513.6406 Q24.3906,513.9375 23.75,514.0781 Q23.1094,514.2344 22.4063,514.2344 Q19.9063,514.2344 18.5781,512.5938 Q17.2656,510.9375 17.2656,507.8125 Q17.2656,504.6875 18.5781,503.0313 Q19.9063,501.375 22.4063,501.375 Q23.1094,501.375 23.75,501.5313 Q24.4063,501.6875 24.9688,501.9844 L24.9688,504.7031 Q24.3438,504.125 23.75,503.8594 Q23.1563,503.5781 22.5313,503.5781 Q21.1875,503.5781 20.5,504.6563 Q19.8125,505.7188 19.8125,507.8125 Q19.8125,509.9063 20.5,510.9844 Q21.1875,512.0469 22.5313,512.0469 Q23.1563,512.0469 23.75,511.7813 Q24.3438,511.5 24.9688,510.9219 L24.9688,513.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="36" y="512.8467">고객센터_답변처리</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="149" y1="524" y2="524"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="534.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="27" y="540.9951">답변번호 : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="550.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="27" y="557.292">문의번호 : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="567.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="27" y="573.5889">관리자ID : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="583.5391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="27" y="589.8857">답변내용 : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="599.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="27" y="606.1826">답변일자 : date</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="149" y1="613.4844" y2="613.4844"/><ellipse cx="18" cy="627.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="27" y="630.4795">답변등록()</text><ellipse cx="18" cy="643.4297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="27" y="646.7764">답변수정()</text></g><!--MD5=[14dcae5676cd0e9b36adc3bfc0fbfddb]
+class 문의내역--><g id="elem_문의내역"><rect codeLine="26" fill="#F1F1F1" height="129.4844" id="문의내역" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="122" x="185.5" y="508.5"/><ellipse cx="217.6" cy="524.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M220.5688,530.1406 Q219.9906,530.4375 219.35,530.5781 Q218.7094,530.7344 218.0063,530.7344 Q215.5063,530.7344 214.1781,529.0938 Q212.8656,527.4375 212.8656,524.3125 Q212.8656,521.1875 214.1781,519.5313 Q215.5063,517.875 218.0063,517.875 Q218.7094,517.875 219.35,518.0313 Q220.0063,518.1875 220.5688,518.4844 L220.5688,521.2031 Q219.9438,520.625 219.35,520.3594 Q218.7563,520.0781 218.1313,520.0781 Q216.7875,520.0781 216.1,521.1563 Q215.4125,522.2188 215.4125,524.3125 Q215.4125,526.4063 216.1,527.4844 Q216.7875,528.5469 218.1313,528.5469 Q218.7563,528.5469 219.35,528.2813 Q219.9438,528 220.5688,527.4219 L220.5688,530.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="235.4" y="529.3467">문의내역</text><line style="stroke:#181818;stroke-width:0.5;" x1="186.5" x2="306.5" y1="540.5" y2="540.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="193.5" y="551.1484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="205.5" y="557.4951">문의번호 : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="193.5" y="567.4453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="205.5" y="573.792">제목 : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="193.5" y="583.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="205.5" y="590.0889">내용 : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="193.5" y="600.0391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="205.5" y="606.3857">작성일자 : date</text><line style="stroke:#181818;stroke-width:0.5;" x1="186.5" x2="306.5" y1="613.6875" y2="613.6875"/><ellipse cx="196.5" cy="627.3359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="205.5" y="630.6826">문의조회()</text></g><!--MD5=[ae0683a03fc42db8060c4708e92eaf82]
+class 회원--><g id="elem_회원"><rect codeLine="35" fill="#F1F1F1" height="210.9688" id="회원" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="130" x="452.5" y="213"/><ellipse cx="500.25" cy="229" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M503.2188,234.6406 Q502.6406,234.9375 502,235.0781 Q501.3594,235.2344 500.6563,235.2344 Q498.1563,235.2344 496.8281,233.5938 Q495.5156,231.9375 495.5156,228.8125 Q495.5156,225.6875 496.8281,224.0313 Q498.1563,222.375 500.6563,222.375 Q501.3594,222.375 502,222.5313 Q502.6563,222.6875 503.2188,222.9844 L503.2188,225.7031 Q502.5938,225.125 502,224.8594 Q501.4063,224.5781 500.7813,224.5781 Q499.4375,224.5781 498.75,225.6563 Q498.0625,226.7188 498.0625,228.8125 Q498.0625,230.9063 498.75,231.9844 Q499.4375,233.0469 500.7813,233.0469 Q501.4063,233.0469 502,232.7813 Q502.5938,232.5 503.2188,231.9219 L503.2188,234.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="520.75" y="233.8467">회원</text><line style="stroke:#181818;stroke-width:0.5;" x1="453.5" x2="581.5" y1="245" y2="245"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="460.5" y="255.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="472.5" y="261.9951">아이디 : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="460.5" y="271.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="472.5" y="278.292">비밀번호 : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="460.5" y="288.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="472.5" y="294.5889">이름 : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="460.5" y="304.5391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="472.5" y="310.8857">전화번호 : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="460.5" y="320.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="472.5" y="327.1826">이메일 : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="460.5" y="337.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="472.5" y="343.4795">주소 : string</text><line style="stroke:#181818;stroke-width:0.5;" x1="453.5" x2="581.5" y1="350.7813" y2="350.7813"/><ellipse cx="463.5" cy="364.4297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="472.5" y="367.7764">로그인()</text><ellipse cx="463.5" cy="380.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="472.5" y="384.0732">회원가입()</text><ellipse cx="463.5" cy="397.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="472.5" y="400.3701">비밀번호찾기()</text><ellipse cx="463.5" cy="413.3203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="472.5" y="416.667">아이디찾기()</text></g><!--MD5=[6493927dad33dd525d3dc6aaa0e619bf]
+class 아이디찾기--><g id="elem_아이디찾기"><rect codeLine="48" fill="#F1F1F1" height="80.5938" id="아이디찾기" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117" x="961" y="39.5"/><ellipse cx="985" cy="55.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M987.9688,61.1406 Q987.3906,61.4375 986.75,61.5781 Q986.1094,61.7344 985.4063,61.7344 Q982.9063,61.7344 981.5781,60.0938 Q980.2656,58.4375 980.2656,55.3125 Q980.2656,52.1875 981.5781,50.5313 Q982.9063,48.875 985.4063,48.875 Q986.1094,48.875 986.75,49.0313 Q987.4063,49.1875 987.9688,49.4844 L987.9688,52.2031 Q987.3438,51.625 986.75,51.3594 Q986.1563,51.0781 985.5313,51.0781 Q984.1875,51.0781 983.5,52.1563 Q982.8125,53.2188 982.8125,55.3125 Q982.8125,57.4063 983.5,58.4844 Q984.1875,59.5469 985.5313,59.5469 Q986.1563,59.5469 986.75,59.2813 Q987.3438,59 987.9688,58.4219 L987.9688,61.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="1001" y="60.3467">아이디찾기</text><line style="stroke:#181818;stroke-width:0.5;" x1="962" x2="1077" y1="71.5" y2="71.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="969" y="82.1484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="981" y="88.4951">이메일 : string</text><line style="stroke:#181818;stroke-width:0.5;" x1="962" x2="1077" y1="95.7969" y2="95.7969"/><ellipse cx="972" cy="109.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="981" y="112.792">아이디찾기()</text></g><!--MD5=[ef2ef963126001f491c9e72c3846650d]
+class 비밀번호찾기--><g id="elem_비밀번호찾기"><rect codeLine="53" fill="#F1F1F1" height="80.5938" id="비밀번호찾기" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117" x="1113" y="39.5"/><ellipse cx="1131.15" cy="55.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1134.1188,61.1406 Q1133.5406,61.4375 1132.9,61.5781 Q1132.2594,61.7344 1131.5563,61.7344 Q1129.0563,61.7344 1127.7281,60.0938 Q1126.4156,58.4375 1126.4156,55.3125 Q1126.4156,52.1875 1127.7281,50.5313 Q1129.0563,48.875 1131.5563,48.875 Q1132.2594,48.875 1132.9,49.0313 Q1133.5563,49.1875 1134.1188,49.4844 L1134.1188,52.2031 Q1133.4938,51.625 1132.9,51.3594 Q1132.3063,51.0781 1131.6813,51.0781 Q1130.3375,51.0781 1129.65,52.1563 Q1128.9625,53.2188 1128.9625,55.3125 Q1128.9625,57.4063 1129.65,58.4844 Q1130.3375,59.5469 1131.6813,59.5469 Q1132.3063,59.5469 1132.9,59.2813 Q1133.4938,59 1134.1188,58.4219 L1134.1188,61.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="1145.85" y="60.3467">비밀번호찾기</text><line style="stroke:#181818;stroke-width:0.5;" x1="1114" x2="1229" y1="71.5" y2="71.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1121" y="82.1484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="1133" y="88.4951">아이디 : string</text><line style="stroke:#181818;stroke-width:0.5;" x1="1114" x2="1229" y1="95.7969" y2="95.7969"/><ellipse cx="1124" cy="109.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="1133" y="112.792">비밀번호찾기()</text></g><!--MD5=[72ef72ab434e24596f55fd17c813bacd]
+class 게시판_관리--><g id="elem_게시판_관리"><rect codeLine="59" fill="#F1F1F1" height="178.375" id="게시판_관리" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="121" x="343" y="484"/><ellipse cx="365.65" cy="500" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M368.6188,505.6406 Q368.0406,505.9375 367.4,506.0781 Q366.7594,506.2344 366.0563,506.2344 Q363.5563,506.2344 362.2281,504.5938 Q360.9156,502.9375 360.9156,499.8125 Q360.9156,496.6875 362.2281,495.0313 Q363.5563,493.375 366.0563,493.375 Q366.7594,493.375 367.4,493.5313 Q368.0563,493.6875 368.6188,493.9844 L368.6188,496.7031 Q367.9938,496.125 367.4,495.8594 Q366.8063,495.5781 366.1813,495.5781 Q364.8375,495.5781 364.15,496.6563 Q363.4625,497.7188 363.4625,499.8125 Q363.4625,501.9063 364.15,502.9844 Q364.8375,504.0469 366.1813,504.0469 Q366.8063,504.0469 367.4,503.7813 Q367.9938,503.5 368.6188,502.9219 L368.6188,505.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="381.35" y="504.8467">게시판_관리</text><line style="stroke:#181818;stroke-width:0.5;" x1="344" x2="463" y1="516" y2="516"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="351" y="526.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="363" y="532.9951">게시글번호 : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="351" y="542.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="363" y="549.292">제목 : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="351" y="559.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="363" y="565.5889">내용 : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="351" y="575.5391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="363" y="581.8857">작성자 : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="351" y="591.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="363" y="598.1826">작성일 : date</text><line style="stroke:#181818;stroke-width:0.5;" x1="344" x2="463" y1="605.4844" y2="605.4844"/><ellipse cx="354" cy="619.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="363" y="622.4795">게시글등록()</text><ellipse cx="354" cy="635.4297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="363" y="638.7764">게시글수정()</text><ellipse cx="354" cy="651.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="363" y="655.0732">게시글삭제()</text></g><!--MD5=[2b987ca5baa293033f59c1fc6cc8a2ee]
+class 댓글_관리--><g id="elem_댓글_관리"><rect codeLine="70" fill="#F1F1F1" height="162.0781" id="댓글_관리" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="121" x="400" y="730"/><ellipse cx="428.5" cy="746" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M431.4688,751.6406 Q430.8906,751.9375 430.25,752.0781 Q429.6094,752.2344 428.9063,752.2344 Q426.4063,752.2344 425.0781,750.5938 Q423.7656,748.9375 423.7656,745.8125 Q423.7656,742.6875 425.0781,741.0313 Q426.4063,739.375 428.9063,739.375 Q429.6094,739.375 430.25,739.5313 Q430.9063,739.6875 431.4688,739.9844 L431.4688,742.7031 Q430.8438,742.125 430.25,741.8594 Q429.6563,741.5781 429.0313,741.5781 Q427.6875,741.5781 427,742.6563 Q426.3125,743.7188 426.3125,745.8125 Q426.3125,747.9063 427,748.9844 Q427.6875,750.0469 429.0313,750.0469 Q429.6563,750.0469 430.25,749.7813 Q430.8438,749.5 431.4688,748.9219 L431.4688,751.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="445.5" y="750.8467">댓글_관리</text><line style="stroke:#181818;stroke-width:0.5;" x1="401" x2="520" y1="762" y2="762"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="408" y="772.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="420" y="778.9951">댓글번호 : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="408" y="788.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="420" y="795.292">게시글번호 : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="408" y="805.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="420" y="811.5889">작성자 : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="408" y="821.5391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="420" y="827.8857">내용 : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="408" y="837.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="420" y="844.1826">작성일 : date</text><line style="stroke:#181818;stroke-width:0.5;" x1="401" x2="520" y1="851.4844" y2="851.4844"/><ellipse cx="411" cy="865.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="420" y="868.4795">댓글등록()</text><ellipse cx="411" cy="881.4297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="420" y="884.7764">댓글삭제()</text></g><!--MD5=[a85eaaed49e4f42b842c6a3b382216f3]
+class 블로그--><g id="elem_블로그"><rect codeLine="81" fill="#F1F1F1" height="178.375" id="블로그" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="122" x="570.5" y="484"/><ellipse cx="608.45" cy="500" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M611.4188,505.6406 Q610.8406,505.9375 610.2,506.0781 Q609.5594,506.2344 608.8563,506.2344 Q606.3563,506.2344 605.0281,504.5938 Q603.7156,502.9375 603.7156,499.8125 Q603.7156,496.6875 605.0281,495.0313 Q606.3563,493.375 608.8563,493.375 Q609.5594,493.375 610.2,493.5313 Q610.8563,493.6875 611.4188,493.9844 L611.4188,496.7031 Q610.7938,496.125 610.2,495.8594 Q609.6063,495.5781 608.9813,495.5781 Q607.6375,495.5781 606.95,496.6563 Q606.2625,497.7188 606.2625,499.8125 Q606.2625,501.9063 606.95,502.9844 Q607.6375,504.0469 608.9813,504.0469 Q609.6063,504.0469 610.2,503.7813 Q610.7938,503.5 611.4188,502.9219 L611.4188,505.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="627.55" y="504.8467">블로그</text><line style="stroke:#181818;stroke-width:0.5;" x1="571.5" x2="691.5" y1="516" y2="516"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="578.5" y="526.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="590.5" y="532.9951">블로그ID : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="578.5" y="542.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="590.5" y="549.292">제목 : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="578.5" y="559.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="590.5" y="565.5889">내용 : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="578.5" y="575.5391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="590.5" y="581.8857">작성자 : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="578.5" y="591.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="590.5" y="598.1826">작성일자 : date</text><line style="stroke:#181818;stroke-width:0.5;" x1="571.5" x2="691.5" y1="605.4844" y2="605.4844"/><ellipse cx="581.5" cy="619.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="590.5" y="622.4795">블로그등록()</text><ellipse cx="581.5" cy="635.4297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="590.5" y="638.7764">블로그수정()</text><ellipse cx="581.5" cy="651.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="590.5" y="655.0732">블로그삭제()</text></g><!--MD5=[ca2cd8ae94420e92c867fc985ea5a5b4]
+class 상품--><g id="elem_상품"><rect codeLine="93" fill="#F1F1F1" height="178.375" id="상품" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117" x="819" y="722"/><ellipse cx="860.55" cy="738" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M863.5188,743.6406 Q862.9406,743.9375 862.3,744.0781 Q861.6594,744.2344 860.9563,744.2344 Q858.4563,744.2344 857.1281,742.5938 Q855.8156,740.9375 855.8156,737.8125 Q855.8156,734.6875 857.1281,733.0313 Q858.4563,731.375 860.9563,731.375 Q861.6594,731.375 862.3,731.5313 Q862.9563,731.6875 863.5188,731.9844 L863.5188,734.7031 Q862.8938,734.125 862.3,733.8594 Q861.7063,733.5781 861.0813,733.5781 Q859.7375,733.5781 859.05,734.6563 Q858.3625,735.7188 858.3625,737.8125 Q858.3625,739.9063 859.05,740.9844 Q859.7375,742.0469 861.0813,742.0469 Q861.7063,742.0469 862.3,741.7813 Q862.8938,741.5 863.5188,740.9219 L863.5188,743.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="880.45" y="742.8467">상품</text><line style="stroke:#181818;stroke-width:0.5;" x1="820" x2="935" y1="754" y2="754"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="827" y="764.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="839" y="770.9951">상품번호 : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="827" y="780.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="839" y="787.292">상품명 : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="827" y="797.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="839" y="803.5889">가격 : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="827" y="813.5391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="839" y="819.8857">수량 : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="827" y="829.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="839" y="836.1826">설명 : string</text><line style="stroke:#181818;stroke-width:0.5;" x1="820" x2="935" y1="843.4844" y2="843.4844"/><ellipse cx="830" cy="857.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="839" y="860.4795">상품등록()</text><ellipse cx="830" cy="873.4297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="839" y="876.7764">상품수정()</text><ellipse cx="830" cy="889.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="839" y="893.0732">상품삭제()</text></g><!--MD5=[fa52059e574d387a12921ecaba2a7b96]
+class 상품비교--><g id="elem_상품비교"><rect codeLine="104" fill="#F1F1F1" height="80.5938" id="상품비교" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="130" x="896.5" y="532.5"/><ellipse cx="932.2" cy="548.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M935.1688,554.1406 Q934.5906,554.4375 933.95,554.5781 Q933.3094,554.7344 932.6063,554.7344 Q930.1063,554.7344 928.7781,553.0938 Q927.4656,551.4375 927.4656,548.3125 Q927.4656,545.1875 928.7781,543.5313 Q930.1063,541.875 932.6063,541.875 Q933.3094,541.875 933.95,542.0313 Q934.6063,542.1875 935.1688,542.4844 L935.1688,545.2031 Q934.5438,544.625 933.95,544.3594 Q933.3563,544.0781 932.7313,544.0781 Q931.3875,544.0781 930.7,545.1563 Q930.0125,546.2188 930.0125,548.3125 Q930.0125,550.4063 930.7,551.4844 Q931.3875,552.5469 932.7313,552.5469 Q933.3563,552.5469 933.95,552.2813 Q934.5438,552 935.1688,551.4219 L935.1688,554.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="950.8" y="553.3467">상품비교</text><line style="stroke:#181818;stroke-width:0.5;" x1="897.5" x2="1025.5" y1="564.5" y2="564.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="904.5" y="575.1484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="916.5" y="581.4951">비교항목 : string</text><line style="stroke:#181818;stroke-width:0.5;" x1="897.5" x2="1025.5" y1="588.7969" y2="588.7969"/><ellipse cx="907.5" cy="602.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="916.5" y="605.792">상품비교()</text></g><!--MD5=[f2c23fe5f40e5343d3728d56f59983ab]
+class 장바구니--><g id="elem_장바구니"><rect codeLine="109" fill="#F1F1F1" height="162.0781" id="장바구니" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="134" x="727.5" y="492"/><ellipse cx="765" cy="508" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M767.9688,513.6406 Q767.3906,513.9375 766.75,514.0781 Q766.1094,514.2344 765.4063,514.2344 Q762.9063,514.2344 761.5781,512.5938 Q760.2656,510.9375 760.2656,507.8125 Q760.2656,504.6875 761.5781,503.0313 Q762.9063,501.375 765.4063,501.375 Q766.1094,501.375 766.75,501.5313 Q767.4063,501.6875 767.9688,501.9844 L767.9688,504.7031 Q767.3438,504.125 766.75,503.8594 Q766.1563,503.5781 765.5313,503.5781 Q764.1875,503.5781 763.5,504.6563 Q762.8125,505.7188 762.8125,507.8125 Q762.8125,509.9063 763.5,510.9844 Q764.1875,512.0469 765.5313,512.0469 Q766.1563,512.0469 766.75,511.7813 Q767.3438,511.5 767.9688,510.9219 L767.9688,513.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="784" y="512.8467">장바구니</text><line style="stroke:#181818;stroke-width:0.5;" x1="728.5" x2="860.5" y1="524" y2="524"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="735.5" y="534.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="747.5" y="540.9951">장바구니번호 : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="735.5" y="550.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="747.5" y="557.292">상품번호 : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="735.5" y="567.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="747.5" y="573.5889">수량 : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="735.5" y="583.5391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="747.5" y="589.8857">총금액 : int</text><line style="stroke:#181818;stroke-width:0.5;" x1="728.5" x2="860.5" y1="597.1875" y2="597.1875"/><ellipse cx="738.5" cy="610.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="747.5" y="614.1826">상품추가()</text><ellipse cx="738.5" cy="627.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="747.5" y="630.4795">상품삭제()</text><ellipse cx="738.5" cy="643.4297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="747.5" y="646.7764">장바구니조회()</text></g><!--MD5=[11f29453014c66c67b65be175d1b3ca7]
+class 결제--><g id="elem_결제"><rect codeLine="119" fill="#F1F1F1" height="145.7813" id="결제" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="130" x="729.5" y="245.5"/><ellipse cx="777.25" cy="261.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M780.2188,267.1406 Q779.6406,267.4375 779,267.5781 Q778.3594,267.7344 777.6563,267.7344 Q775.1563,267.7344 773.8281,266.0938 Q772.5156,264.4375 772.5156,261.3125 Q772.5156,258.1875 773.8281,256.5313 Q775.1563,254.875 777.6563,254.875 Q778.3594,254.875 779,255.0313 Q779.6563,255.1875 780.2188,255.4844 L780.2188,258.2031 Q779.5938,257.625 779,257.3594 Q778.4063,257.0781 777.7813,257.0781 Q776.4375,257.0781 775.75,258.1563 Q775.0625,259.2188 775.0625,261.3125 Q775.0625,263.4063 775.75,264.4844 Q776.4375,265.5469 777.7813,265.5469 Q778.4063,265.5469 779,265.2813 Q779.5938,265 780.2188,264.4219 L780.2188,267.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="797.75" y="266.3467">결제</text><line style="stroke:#181818;stroke-width:0.5;" x1="730.5" x2="858.5" y1="277.5" y2="277.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="737.5" y="288.1484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="749.5" y="294.4951">결제번호 : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="737.5" y="304.4453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="749.5" y="310.792">결제금액 : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="737.5" y="320.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="749.5" y="327.0889">결제수단 : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="737.5" y="337.0391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="749.5" y="343.3857">결제일자 : date</text><line style="stroke:#181818;stroke-width:0.5;" x1="730.5" x2="858.5" y1="350.6875" y2="350.6875"/><ellipse cx="740.5" cy="364.3359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="749.5" y="367.6826">결제처리()</text><ellipse cx="740.5" cy="380.6328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="749.5" y="383.9795">결제취소()</text></g><!--MD5=[809c25aaf5735fce746ef68c7c61e669]
+class 환불처리--><g id="elem_환불처리"><rect codeLine="128" fill="#F1F1F1" height="145.7813" id="환불처리" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="130" x="652.5" y="7"/><ellipse cx="688.2" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M691.1688,28.6406 Q690.5906,28.9375 689.95,29.0781 Q689.3094,29.2344 688.6063,29.2344 Q686.1063,29.2344 684.7781,27.5938 Q683.4656,25.9375 683.4656,22.8125 Q683.4656,19.6875 684.7781,18.0313 Q686.1063,16.375 688.6063,16.375 Q689.3094,16.375 689.95,16.5313 Q690.6063,16.6875 691.1688,16.9844 L691.1688,19.7031 Q690.5438,19.125 689.95,18.8594 Q689.3563,18.5781 688.7313,18.5781 Q687.3875,18.5781 686.7,19.6563 Q686.0125,20.7188 686.0125,22.8125 Q686.0125,24.9063 686.7,25.9844 Q687.3875,27.0469 688.7313,27.0469 Q689.3563,27.0469 689.95,26.7813 Q690.5438,26.5 691.1688,25.9219 L691.1688,28.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="706.8" y="27.8467">환불처리</text><line style="stroke:#181818;stroke-width:0.5;" x1="653.5" x2="781.5" y1="39" y2="39"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="660.5" y="49.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="672.5" y="55.9951">환불번호 : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="660.5" y="65.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="672.5" y="72.292">결제번호 : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="660.5" y="82.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="672.5" y="88.5889">환불사유 : string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="660.5" y="98.5391"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="672.5" y="104.8857">환불일자 : date</text><line style="stroke:#181818;stroke-width:0.5;" x1="653.5" x2="781.5" y1="112.1875" y2="112.1875"/><ellipse cx="663.5" cy="125.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="672.5" y="129.1826">환불요청()</text><ellipse cx="663.5" cy="142.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="672.5" y="145.4795">환불완료()</text></g><!--MD5=[28bbd894a46ae6179ab12a0965ae69bd]
+class 수익확인--><g id="elem_수익확인"><rect codeLine="137" fill="#F1F1F1" height="96.8906" id="수익확인" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="108" x="817.5" y="31.5"/><ellipse cx="843.3" cy="47.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M846.2688,53.1406 Q845.6906,53.4375 845.05,53.5781 Q844.4094,53.7344 843.7063,53.7344 Q841.2063,53.7344 839.8781,52.0938 Q838.5656,50.4375 838.5656,47.3125 Q838.5656,44.1875 839.8781,42.5313 Q841.2063,40.875 843.7063,40.875 Q844.4094,40.875 845.05,41.0313 Q845.7063,41.1875 846.2688,41.4844 L846.2688,44.2031 Q845.6438,43.625 845.05,43.3594 Q844.4563,43.0781 843.8313,43.0781 Q842.4875,43.0781 841.8,44.1563 Q841.1125,45.2188 841.1125,47.3125 Q841.1125,49.4063 841.8,50.4844 Q842.4875,51.5469 843.8313,51.5469 Q844.4563,51.5469 845.05,51.2813 Q845.6438,51 846.2688,50.4219 L846.2688,53.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="859.7" y="52.3467">수익확인</text><line style="stroke:#181818;stroke-width:0.5;" x1="818.5" x2="924.5" y1="63.5" y2="63.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="825.5" y="74.1484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="837.5" y="80.4951">거래번호 : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="825.5" y="90.4453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="837.5" y="96.792">수익금액 : int</text><line style="stroke:#181818;stroke-width:0.5;" x1="818.5" x2="924.5" y1="104.0938" y2="104.0938"/><ellipse cx="828.5" cy="117.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="837.5" y="121.0889">수익조회()</text></g><!--MD5=[50bfaa9204aa87a933ecaa5df86a509d]
+class 카테고리_관리--><g id="elem_카테고리_관리"><rect codeLine="144" fill="#F1F1F1" height="96.8906" id="카테고리_관리" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="143" x="806" y="960"/><ellipse cx="832.7" cy="976" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M835.6688,981.6406 Q835.0906,981.9375 834.45,982.0781 Q833.8094,982.2344 833.1063,982.2344 Q830.6063,982.2344 829.2781,980.5938 Q827.9656,978.9375 827.9656,975.8125 Q827.9656,972.6875 829.2781,971.0313 Q830.6063,969.375 833.1063,969.375 Q833.8094,969.375 834.45,969.5313 Q835.1063,969.6875 835.6688,969.9844 L835.6688,972.7031 Q835.0438,972.125 834.45,971.8594 Q833.8563,971.5781 833.2313,971.5781 Q831.8875,971.5781 831.2,972.6563 Q830.5125,973.7188 830.5125,975.8125 Q830.5125,977.9063 831.2,978.9844 Q831.8875,980.0469 833.2313,980.0469 Q833.8563,980.0469 834.45,979.7813 Q835.0438,979.5 835.6688,978.9219 L835.6688,981.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="849.3" y="980.8467">카테고리_관리</text><line style="stroke:#181818;stroke-width:0.5;" x1="807" x2="948" y1="992" y2="992"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="814" y="1002.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="826" y="1008.9951">카테고리명 : string</text><line style="stroke:#181818;stroke-width:0.5;" x1="807" x2="948" y1="1016.2969" y2="1016.2969"/><ellipse cx="817" cy="1029.9453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="826" y="1033.292">카테고리등록()</text><ellipse cx="817" cy="1046.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="826" y="1049.5889">카테고리삭제()</text></g><!--MD5=[c300fd74b401a8f718bafe0d5eeb091a]
+class 대분류_관리--><g id="elem_대분류_관리"><rect codeLine="150" fill="#F1F1F1" height="96.8906" id="대분류_관리" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="130" x="647.5" y="1117"/><ellipse cx="674.2" cy="1133" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M677.1688,1138.6406 Q676.5906,1138.9375 675.95,1139.0781 Q675.3094,1139.2344 674.6063,1139.2344 Q672.1063,1139.2344 670.7781,1137.5938 Q669.4656,1135.9375 669.4656,1132.8125 Q669.4656,1129.6875 670.7781,1128.0313 Q672.1063,1126.375 674.6063,1126.375 Q675.3094,1126.375 675.95,1126.5313 Q676.6063,1126.6875 677.1688,1126.9844 L677.1688,1129.7031 Q676.5438,1129.125 675.95,1128.8594 Q675.3563,1128.5781 674.7313,1128.5781 Q673.3875,1128.5781 672.7,1129.6563 Q672.0125,1130.7188 672.0125,1132.8125 Q672.0125,1134.9063 672.7,1135.9844 Q673.3875,1137.0469 674.7313,1137.0469 Q675.3563,1137.0469 675.95,1136.7813 Q676.5438,1136.5 677.1688,1135.9219 L677.1688,1138.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="690.8" y="1137.8467">대분류_관리</text><line style="stroke:#181818;stroke-width:0.5;" x1="648.5" x2="776.5" y1="1149" y2="1149"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="655.5" y="1159.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="667.5" y="1165.9951">대분류명 : string</text><line style="stroke:#181818;stroke-width:0.5;" x1="648.5" x2="776.5" y1="1173.2969" y2="1173.2969"/><ellipse cx="658.5" cy="1186.9453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="667.5" y="1190.292">대분류등록()</text><ellipse cx="658.5" cy="1203.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="667.5" y="1206.5889">대분류삭제()</text></g><!--MD5=[b737a2a7a722f7a7436e4502b5f09275]
+class 중분류_관리--><g id="elem_중분류_관리"><rect codeLine="156" fill="#F1F1F1" height="96.8906" id="중분류_관리" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="130" x="812.5" y="1117"/><ellipse cx="839.2" cy="1133" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M842.1688,1138.6406 Q841.5906,1138.9375 840.95,1139.0781 Q840.3094,1139.2344 839.6063,1139.2344 Q837.1063,1139.2344 835.7781,1137.5938 Q834.4656,1135.9375 834.4656,1132.8125 Q834.4656,1129.6875 835.7781,1128.0313 Q837.1063,1126.375 839.6063,1126.375 Q840.3094,1126.375 840.95,1126.5313 Q841.6063,1126.6875 842.1688,1126.9844 L842.1688,1129.7031 Q841.5438,1129.125 840.95,1128.8594 Q840.3563,1128.5781 839.7313,1128.5781 Q838.3875,1128.5781 837.7,1129.6563 Q837.0125,1130.7188 837.0125,1132.8125 Q837.0125,1134.9063 837.7,1135.9844 Q838.3875,1137.0469 839.7313,1137.0469 Q840.3563,1137.0469 840.95,1136.7813 Q841.5438,1136.5 842.1688,1135.9219 L842.1688,1138.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="855.8" y="1137.8467">중분류_관리</text><line style="stroke:#181818;stroke-width:0.5;" x1="813.5" x2="941.5" y1="1149" y2="1149"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="820.5" y="1159.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="832.5" y="1165.9951">중분류명 : string</text><line style="stroke:#181818;stroke-width:0.5;" x1="813.5" x2="941.5" y1="1173.2969" y2="1173.2969"/><ellipse cx="823.5" cy="1186.9453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="832.5" y="1190.292">중분류등록()</text><ellipse cx="823.5" cy="1203.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="832.5" y="1206.5889">중분류삭제()</text></g><!--MD5=[ea6b27f966ddae75d5d05d1ed9693d92]
+class 소분류_관리--><g id="elem_소분류_관리"><rect codeLine="162" fill="#F1F1F1" height="96.8906" id="소분류_관리" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="130" x="977.5" y="1117"/><ellipse cx="1004.2" cy="1133" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1007.1688,1138.6406 Q1006.5906,1138.9375 1005.95,1139.0781 Q1005.3094,1139.2344 1004.6063,1139.2344 Q1002.1063,1139.2344 1000.7781,1137.5938 Q999.4656,1135.9375 999.4656,1132.8125 Q999.4656,1129.6875 1000.7781,1128.0313 Q1002.1063,1126.375 1004.6063,1126.375 Q1005.3094,1126.375 1005.95,1126.5313 Q1006.6063,1126.6875 1007.1688,1126.9844 L1007.1688,1129.7031 Q1006.5438,1129.125 1005.95,1128.8594 Q1005.3563,1128.5781 1004.7313,1128.5781 Q1003.3875,1128.5781 1002.7,1129.6563 Q1002.0125,1130.7188 1002.0125,1132.8125 Q1002.0125,1134.9063 1002.7,1135.9844 Q1003.3875,1137.0469 1004.7313,1137.0469 Q1005.3563,1137.0469 1005.95,1136.7813 Q1006.5438,1136.5 1007.1688,1135.9219 L1007.1688,1138.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="1020.8" y="1137.8467">소분류_관리</text><line style="stroke:#181818;stroke-width:0.5;" x1="978.5" x2="1106.5" y1="1149" y2="1149"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="985.5" y="1159.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="997.5" y="1165.9951">소분류명 : string</text><line style="stroke:#181818;stroke-width:0.5;" x1="978.5" x2="1106.5" y1="1173.2969" y2="1173.2969"/><ellipse cx="988.5" cy="1186.9453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="997.5" y="1190.292">소분류등록()</text><ellipse cx="988.5" cy="1203.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="997.5" y="1206.5889">소분류삭제()</text></g><!--MD5=[e0d4a37bc669bf25935346a1d9411c57]
+link 고객센터_문의 to 문의내역--><g id="link_고객센터_문의_문의내역"><path codeLine="170" d="M189.19,399.74 C200.27,433.05 213,471.31 223.64,503.3 " fill="none" id="고객센터_문의-to-문의내역" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="225.33,508.37,226.3052,498.5695,223.7617,503.6223,218.7089,501.0788,225.33,508.37" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="183.2108" y="419.7127">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="214.577" y="497.5284">1</text></g><!--MD5=[bf2c5b0f137d06b0966f487b91ab8a82]
+link 고객센터_문의 to 고객센터_답변처리--><g id="link_고객센터_문의_고객센터_답변처리"><path codeLine="171" d="M135.81,399.74 C126.54,427.59 116.13,458.89 106.74,487.11 " fill="none" id="고객센터_문의-to-고객센터_답변처리" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="105.12,491.97,111.7674,484.7028,106.7054,487.228,104.1802,482.1661,105.12,491.97" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="125.0767" y="419.7127">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="99.2053" y="480.8781">1</text></g><!--MD5=[ba007ff6c8cd3eba810cd5d3d5746f6b]
+link 회원 to 문의내역--><g id="link_회원_문의내역"><path codeLine="174" d="M452.08,371.93 C414.06,403.29 365.84,444.58 325.5,484 C318.93,490.42 312.25,497.28 305.69,504.23 " fill="none" id="회원-to-문의내역" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="302.06,508.1,311.1331,504.2687,305.4792,504.4519,305.2961,498.798,302.06,508.1" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="436.4872" y="374.0295">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="300.7541" y="497.2289">*</text></g><!--MD5=[8a2d55f8bb3c51def1f1468a9d02b629]
+link 회원 to 게시판_관리--><g id="link_회원_게시판_관리"><path codeLine="175" d="M470.31,424.02 C462.13,442.13 453.68,460.85 445.65,478.64 " fill="none" id="회원-to-게시판_관리" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="443.4,483.63,450.7487,477.0728,445.4572,479.0728,443.4571,473.7813,443.4,483.63" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="458.7107" y="444.0394">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="439.3006" y="472.9679">*</text></g><!--MD5=[bbdbb31d4c3974cc91631314daf10eac]
+link 회원 to 댓글_관리--><g id="link_회원_댓글_관리"><path codeLine="176" d="M507.49,424.16 C500.76,492.04 491.34,582.34 481.5,662 C478.99,682.3 476.04,704.13 473.15,724.62 " fill="none" id="회원-to-댓글_관리" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="472.42,729.8,477.6425,721.4498,473.1211,724.8494,469.7215,720.328,472.42,729.8" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="498.5049" y="444.1892">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="466.1699" y="718.9695">*</text></g><!--MD5=[f5fcf7093487f49920c7b5e92c0832fb]
+link 회원 to 장바구니--><g id="link_회원_장바구니"><path codeLine="177" d="M582.84,372.35 C620.92,403.84 669.39,445.14 710.5,484 C714.82,488.08 719.2,492.33 723.58,496.65 " fill="none" id="회원-to-장바구니" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="727.26,500.3,723.6873,491.122,723.7102,496.7788,718.0534,496.8017,727.26,500.3" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="590.4241" y="374.4954">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="712.5228" y="488.598">*</text></g><!--MD5=[069560d79528478f5fc2569926017d71]
+link 장바구니 to 상품--><g id="link_장바구니_상품"><path codeLine="180" d="M822.72,654.23 C829.81,674.39 837.48,696.2 844.77,716.94 " fill="none" id="장바구니-to-상품" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="846.52,721.9,847.309,712.0828,844.8619,717.1829,839.7617,714.7358,846.52,721.9" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="817.9216" y="674.2018">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="835.6232" y="710.9572">1</text></g><!--MD5=[6b85c289f4305133a45099e7dafec3dd]
+link 상품 to 카테고리_관리--><g id="link_상품_카테고리_관리"><path codeLine="181" d="M877.5,900.03 C877.5,918.67 877.5,937.79 877.5,954.64 " fill="none" id="상품-to-카테고리_관리" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="877.5,959.8,881.5,950.8,877.5,954.8,873.5,950.8,877.5,959.8" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="869.1563" y="920.382">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="868.9375" y="948.9808">1</text></g><!--MD5=[fbf6e62fe21cdc99a799f59dd51bb222]
+link 결제 to 장바구니--><g id="link_결제_장바구니"><path codeLine="184" d="M794.5,391.52 C794.5,421.14 794.5,455.69 794.5,486.58 " fill="none" id="결제-to-장바구니" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="794.5,491.9,798.5,482.9,794.5,486.9,790.5,482.9,794.5,491.9" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="786.1188" y="411.2782">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="786.1313" y="480.8016">1</text></g><!--MD5=[024ff8f5fa48e7e0c0a56063719b1c29]
+link 환불처리 to 결제--><g id="link_환불처리_결제"><path codeLine="185" d="M741.02,153.24 C750.01,180.85 760.29,212.42 769.42,240.46 " fill="none" id="환불처리-to-결제" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="770.99,245.29,772.0183,235.495,769.4475,240.5339,764.4086,237.963,770.99,245.29" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="734.8195" y="172.7663">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="760.282" y="234.4293">1</text></g><!--MD5=[46a0b03cec84126eb891486ababb524a]
+link 수익확인 to 결제--><g id="link_수익확인_결제"><path codeLine="186" d="M856.01,128.57 C845.59,160.59 831.61,203.52 819.61,240.37 " fill="none" id="수익확인-to-결제" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="818.01,245.29,824.5914,237.963,819.5525,240.5339,816.9817,235.495,818.01,245.29" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="846.3395" y="148.5388">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="812.9797" y="234.4293">*</text></g><!--MD5=[8c93255bbfcca7919fb48953e72671ea]
+link 게시판_관리 to 댓글_관리--><g id="link_게시판_관리_댓글_관리"><path codeLine="189" d="M424.81,662.21 C429.75,682.7 435.01,704.46 439.93,724.81 " fill="none" id="게시판_관리-to-댓글_관리" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="441.1,729.68,442.8784,719.993,439.9277,724.8194,435.1014,721.8687,441.1,729.68" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="418.2976" y="682.5775">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="432.0605" y="718.8388">*</text></g><!--MD5=[0116e1b68eaf465cf7b30ab69e608a32]
+link 회원 to 블로그--><g id="link_회원_블로그"><path codeLine="190" d="M564.69,424.02 C572.87,442.13 581.32,460.85 589.35,478.64 " fill="none" id="회원-to-블로그" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="591.6,483.63,591.5429,473.7813,589.5428,479.0728,584.2513,477.0728,591.6,483.63" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="559.7268" y="444.0394">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="581.1416" y="472.9679">*</text></g><!--MD5=[237cd49280c09ed4e2a906ce816d5dc1]
+reverse link 카테고리_관리 to 대분류_관리--><g id="link_카테고리_관리_대분류_관리"><path codeLine="193" d="M812.05,1070.98 C795.8,1086.25 778.61,1102.39 763.18,1116.89 " fill="none" id="카테고리_관리-backto-대분류_관리" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="807.28,1065.86,826.65,1057.27,816.86,1076.07,807.28,1065.86" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[aa3c192277c3522a9343c96ec08ad899]
+reverse link 카테고리_관리 to 중분류_관리--><g id="link_카테고리_관리_중분류_관리"><path codeLine="194" d="M877.5,1077.57 C877.5,1090.83 877.5,1104.46 877.5,1116.89 " fill="none" id="카테고리_관리-backto-중분류_관리" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="870.5,1077.27,877.5,1057.27,884.5,1077.27,870.5,1077.27" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b008938c48ddb173a11aa9d8769a4d62]
+reverse link 카테고리_관리 to 소분류_관리--><g id="link_카테고리_관리_소분류_관리"><path codeLine="195" d="M942.95,1070.98 C959.2,1086.25 976.39,1102.39 991.82,1116.89 " fill="none" id="카테고리_관리-backto-소분류_관리" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="938.14,1076.07,928.35,1057.27,947.72,1065.86,938.14,1076.07" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d314d22d9ccc1c9ecc9943bbeb75b4c6]
+link 상품비교 to 상품--><g id="link_상품비교_상품"><path codeLine="198" d="M947.44,613.5 C937.38,641.76 923.41,681 910.6,716.99 " fill="none" id="상품비교-to-상품" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="908.89,721.82,915.6867,714.6923,910.5735,717.1119,908.1538,711.9987,908.89,721.82" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="936.5617" y="633.2599">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="904.1996" y="710.8706">*</text></g><!--MD5=[bdd8fd8f5abbc47c229f96a43af630d0]
+@startuml
+' =============================
+' 쇼핑몰 시스템 클래스 다이어그램
+' =============================
+
+' ==== 고객센터 관련 ====
+class 고객센터_문의 {
+  - 문의번호 : int
+  - 회원ID : string
+  - 제목 : string
+  - 내용 : string
+  - 작성일자 : date
+  + 문의등록()
+  + 문의조회()
+}
+
+class 고객센터_답변처리 {
+  - 답변번호 : int
+  - 문의번호 : int
+  - 관리자ID : string
+  - 답변내용 : string
+  - 답변일자 : date
+  + 답변등록()
+  + 답변수정()
+}
+
+class 문의내역 {
+  - 문의번호 : int
+  - 제목 : string
+  - 내용 : string
+  - 작성일자 : date
+  + 문의조회()
+}
+
+' ==== 회원 관련 ====
+class 회원 {
+  - 아이디 : string
+  - 비밀번호 : string
+  - 이름 : string
+  - 전화번호 : string
+  - 이메일 : string
+  - 주소 : string
+  + 로그인()
+  + 회원가입()
+  + 비밀번호찾기()
+  + 아이디찾기()
+}
+
+class 아이디찾기 {
+  - 이메일 : string
+  + 아이디찾기()
+}
+
+class 비밀번호찾기 {
+  - 아이디 : string
+  + 비밀번호찾기()
+}
+
+' ==== 게시판 / 댓글 ====
+class 게시판_관리 {
+  - 게시글번호 : int
+  - 제목 : string
+  - 내용 : string
+  - 작성자 : string
+  - 작성일 : date
+  + 게시글등록()
+  + 게시글수정()
+  + 게시글삭제()
+}
+
+class 댓글_관리 {
+  - 댓글번호 : int
+  - 게시글번호 : int
+  - 작성자 : string
+  - 내용 : string
+  - 작성일 : date
+  + 댓글등록()
+  + 댓글삭제()
+}
+
+' ==== 블로그 / 게시글 ====
+class 블로그 {
+  - 블로그ID : int
+  - 제목 : string
+  - 내용 : string
+  - 작성자 : string
+  - 작성일자 : date
+  + 블로그등록()
+  + 블로그수정()
+  + 블로그삭제()
+}
+
+' ==== 상품 / 장바구니 / 결제 ====
+class 상품 {
+  - 상품번호 : int
+  - 상품명 : string
+  - 가격 : int
+  - 수량 : int
+  - 설명 : string
+  + 상품등록()
+  + 상품수정()
+  + 상품삭제()
+}
+
+class 상품비교 {
+  - 비교항목 : string
+  + 상품비교()
+}
+
+class 장바구니 {
+  - 장바구니번호 : int
+  - 상품번호 : int
+  - 수량 : int
+  - 총금액 : int
+  + 상품추가()
+  + 상품삭제()
+  + 장바구니조회()
+}
+
+class 결제 {
+  - 결제번호 : int
+  - 결제금액 : int
+  - 결제수단 : string
+  - 결제일자 : date
+  + 결제처리()
+  + 결제취소()
+}
+
+class 환불처리 {
+  - 환불번호 : int
+  - 결제번호 : int
+  - 환불사유 : string
+  - 환불일자 : date
+  + 환불요청()
+  + 환불완료()
+}
+
+class 수익확인 {
+  - 거래번호 : int
+  - 수익금액 : int
+  + 수익조회()
+}
+
+' ==== 카테고리 관리 ====
+class 카테고리_관리 {
+  - 카테고리명 : string
+  + 카테고리등록()
+  + 카테고리삭제()
+}
+
+class 대분류_관리 {
+  - 대분류명 : string
+  + 대분류등록()
+  + 대분류삭제()
+}
+
+class 중분류_관리 {
+  - 중분류명 : string
+  + 중분류등록()
+  + 중분류삭제()
+}
+
+class 소분류_관리 {
+  - 소분류명 : string
+  + 소분류등록()
+  + 소분류삭제()
+}
+
+' ==== 관계 설정 ====
+' 고객센터
+고객센터_문의 "1" - -> "1" 문의내역
+고객센터_문의 "1" - -> "1" 고객센터_답변처리
+
+' 회원 관련
+회원 "1" - -> "*" 문의내역
+회원 "1" - -> "*" 게시판_관리
+회원 "1" - -> "*" 댓글_관리
+회원 "1" - -> "*" 장바구니
+
+' 장바구니 - 상품
+장바구니 "*" - -> "1" 상품
+상품 "1" - -> "1" 카테고리_관리
+
+' 결제 / 환불 / 수익
+결제 "1" - -> "1" 장바구니
+환불처리 "1" - -> "1" 결제
+수익확인 "*" - -> "*" 결제
+
+' 게시판 / 댓글 / 블로그
+게시판_관리 "1" - -> "*" 댓글_관리
+회원 "1" - -> "*" 블로그
+
+' 카테고리 관리 상속 관계
+카테고리_관리 <|- - 대분류_관리
+카테고리_관리 <|- - 중분류_관리
+카테고리_관리 <|- - 소분류_관리
+
+' 상품비교
+상품비교 "1" - -> "*" 상품
+@enduml
+
+@startuml
+
+class 고객센터_문의 {
+  - 문의번호 : int
+  - 회원ID : string
+  - 제목 : string
+  - 내용 : string
+  - 작성일자 : date
+  + 문의등록()
+  + 문의조회()
+}
+
+class 고객센터_답변처리 {
+  - 답변번호 : int
+  - 문의번호 : int
+  - 관리자ID : string
+  - 답변내용 : string
+  - 답변일자 : date
+  + 답변등록()
+  + 답변수정()
+}
+
+class 문의내역 {
+  - 문의번호 : int
+  - 제목 : string
+  - 내용 : string
+  - 작성일자 : date
+  + 문의조회()
+}
+
+class 회원 {
+  - 아이디 : string
+  - 비밀번호 : string
+  - 이름 : string
+  - 전화번호 : string
+  - 이메일 : string
+  - 주소 : string
+  + 로그인()
+  + 회원가입()
+  + 비밀번호찾기()
+  + 아이디찾기()
+}
+
+class 아이디찾기 {
+  - 이메일 : string
+  + 아이디찾기()
+}
+
+class 비밀번호찾기 {
+  - 아이디 : string
+  + 비밀번호찾기()
+}
+
+class 게시판_관리 {
+  - 게시글번호 : int
+  - 제목 : string
+  - 내용 : string
+  - 작성자 : string
+  - 작성일 : date
+  + 게시글등록()
+  + 게시글수정()
+  + 게시글삭제()
+}
+
+class 댓글_관리 {
+  - 댓글번호 : int
+  - 게시글번호 : int
+  - 작성자 : string
+  - 내용 : string
+  - 작성일 : date
+  + 댓글등록()
+  + 댓글삭제()
+}
+
+class 블로그 {
+  - 블로그ID : int
+  - 제목 : string
+  - 내용 : string
+  - 작성자 : string
+  - 작성일자 : date
+  + 블로그등록()
+  + 블로그수정()
+  + 블로그삭제()
+}
+
+class 상품 {
+  - 상품번호 : int
+  - 상품명 : string
+  - 가격 : int
+  - 수량 : int
+  - 설명 : string
+  + 상품등록()
+  + 상품수정()
+  + 상품삭제()
+}
+
+class 상품비교 {
+  - 비교항목 : string
+  + 상품비교()
+}
+
+class 장바구니 {
+  - 장바구니번호 : int
+  - 상품번호 : int
+  - 수량 : int
+  - 총금액 : int
+  + 상품추가()
+  + 상품삭제()
+  + 장바구니조회()
+}
+
+class 결제 {
+  - 결제번호 : int
+  - 결제금액 : int
+  - 결제수단 : string
+  - 결제일자 : date
+  + 결제처리()
+  + 결제취소()
+}
+
+class 환불처리 {
+  - 환불번호 : int
+  - 결제번호 : int
+  - 환불사유 : string
+  - 환불일자 : date
+  + 환불요청()
+  + 환불완료()
+}
+
+class 수익확인 {
+  - 거래번호 : int
+  - 수익금액 : int
+  + 수익조회()
+}
+
+class 카테고리_관리 {
+  - 카테고리명 : string
+  + 카테고리등록()
+  + 카테고리삭제()
+}
+
+class 대분류_관리 {
+  - 대분류명 : string
+  + 대분류등록()
+  + 대분류삭제()
+}
+
+class 중분류_관리 {
+  - 중분류명 : string
+  + 중분류등록()
+  + 중분류삭제()
+}
+
+class 소분류_관리 {
+  - 소분류명 : string
+  + 소분류등록()
+  + 소분류삭제()
+}
+
+고객센터_문의 "1" - -> "1" 문의내역
+고객센터_문의 "1" - -> "1" 고객센터_답변처리
+
+회원 "1" - -> "*" 문의내역
+회원 "1" - -> "*" 게시판_관리
+회원 "1" - -> "*" 댓글_관리
+회원 "1" - -> "*" 장바구니
+
+장바구니 "*" - -> "1" 상품
+상품 "1" - -> "1" 카테고리_관리
+
+결제 "1" - -> "1" 장바구니
+환불처리 "1" - -> "1" 결제
+수익확인 "*" - -> "*" 결제
+
+게시판_관리 "1" - -> "*" 댓글_관리
+회원 "1" - -> "*" 블로그
+
+카테고리_관리 <|- - 대분류_관리
+카테고리_관리 <|- - 중분류_관리
+카테고리_관리 <|- - 소분류_관리
+
+상품비교 "1" - -> "*" 상품
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
